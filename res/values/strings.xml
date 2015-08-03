@@ -1,0 +1,24 @@
+
+<resources>
+
+    <string name="app_name">AgeCalculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AgeCalculator</string>
+    <string name="birthday_input">Please input you birthday</string>
+    <string name="current_day">Today</string>
+    <string name="birthday">Birthday to be inputed</string>
+    <string name="result">Age to be calculated</string>
+    <string name="today_show_format">Today [YYYY]-[MM]-[DD]</string>
+    <string name="year">-</string>
+    <string name="month">-</string>
+    <string name="day"></string>
+    <string name="birthday_show_format">Your birthday [YYYY]-[MM]-[DD]</string>
+    <string name="dialogue_content">Calculation finished</string>
+    <string name="result_show_format">Calculation result</string>
+    <string name="wording_actual_age">Your actual age is</string>
+    <string name="year2"> years  </string>
+    <string name="month2"> months </string>
+    <string name="day2"> days </string>
+    <string name="btn_birthday_input">Input your birthday here</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+    
+    <RelativeLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+   
+    
+    <Button
+        android:id="@+id/button_inputbirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_green"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_birthday_input" />
+
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_inputbirthday"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/current_day"
+        android:textSize="25sp" />
+    
+    
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="@string/birthday"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="@string/result"
+        android:textSize="25sp" />
+    
+   <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/current_day"
+        android:layout_centerHorizontal ="true"
+        
+        android:src="@drawable/signature_for_game"
+       
+       />
+
+   
+</RelativeLayout>
+    
+
+    </ScrollView>
